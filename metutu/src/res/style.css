@@ -1,0 +1,161 @@
+.full {
+  height: 100vh; }
+
+.bg-theme {
+  background: #4caf7f; }
+
+.loader {
+  width: 100%;
+  height: 100%;
+  padding: 32px;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center; }
+  .loader img {
+    width: 50%; }
+
+.btn {
+  background: #4caf7f;
+  color: white;
+  padding: 16px 8px; }
+
+.profile-skill {
+  background: #70af85;
+  color: white;
+  display: inline-block;
+  margin: 8px;
+  padding: 8px; }
+
+.login {
+  cursor: pointer;
+  padding: 16px 8px;
+  border-radius: 4px;
+  display: flex;
+  color: white;
+  margin: 16px;
+  width: 350px;
+  font-size: 1.25em; }
+  .login span {
+    margin: 8px; }
+  .login.fb {
+    background: #4267b2; }
+  .login.google {
+    background: #d34836; }
+
+.titlebar {
+  background: #4caf7f;
+  color: white; }
+  .titlebar h1 {
+    margin: 0px; }
+
+.proimage {
+  border-radius: 50%;
+  height: 250px;
+  width: 250px; }
+
+.widget-container {
+  position: relative !important; }
+  .widget-container .launcher {
+    position: relative !important;
+    background: red !important; }
+
+.skillpicker .selected div {
+  background: #4caf7f;
+  color: white;
+  display: inline-block;
+  margin: 8px;
+  padding: 8px; }
+.skillpicker .searchbar {
+  border: 1px solid #4caf7f;
+  padding: 0px 8px;
+  border-radius: 4px; }
+  .skillpicker .searchbar .search {
+    border: none;
+    padding: 16px 8px;
+    font-size: 1.5em; }
+    .skillpicker .searchbar .search:focus {
+      outline: none; }
+.skillpicker .list .list-item {
+  padding: 16px 16px;
+  text-transform: capitalize; }
+
+.chat-header {
+  background: #4caf7f;
+  color: white; }
+  .chat-header img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%; }
+
+.message-list {
+  background: #eee; }
+
+.chat-input {
+  display: flex;
+  flex-direction: row; }
+  .chat-input input {
+    border: none;
+    width: 100%;
+    padding: 16px;
+    flex: 1; }
+    .chat-input input:focus {
+      outline: none; }
+  .chat-input .fas {
+    padding: 8px;
+    color: #4caf7f; }
+
+.map {
+  height: 300px; }
+
+@media screen and (min-width: 1024px) {
+  .map {
+    height: 500px; } }
+.finder {
+  margin: 16px 0px;
+  display: flex; }
+  .finder > * {
+    margin: 8px; }
+  .finder input {
+    padding: 16px 8px;
+    border: 1px solid #888; }
+  .finder input[type=number] {
+    width: 100px; }
+  .finder div {
+    background: #4caf7f;
+    color: white;
+    padding: 16px 32px; }
+
+.mvbtn {
+  border: 1px solid #888;
+  border-radius: 5px;
+  margin: 8px 16px; }
+
+.a, .b {
+  fill: #4caf7f; }
+
+.b {
+  stroke: #600;
+  stroke-width: 0.25px; }
+
+.c {
+  fill: #ccc; }
+
+.fidget {
+  width: 250px;
+  opacity: 0.1;
+  animation: spin 3s 0s linear both infinite; }
+
+@keyframes spin {
+  0% {
+    transform: rotate(0deg); }
+  100% {
+    transform: rotate(360deg); } }
+.search-shortcut {
+  padding: 32px;
+  display: inline-block;
+  box-shadow: 4px 4px 4px #000;
+  border-radius: 50%;
+  margin-top: 300px; }
+
+/*# sourceMappingURL=style.css.map */

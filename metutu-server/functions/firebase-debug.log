@@ -1,0 +1,43 @@
+[debug] [2018-04-08T19:06:33.987Z] ----------------------------------------------------------------------
+[debug] [2018-04-08T19:06:33.991Z] Command:       /usr/bin/node /usr/bin/firebase serve
+[debug] [2018-04-08T19:06:33.992Z] CLI Version:   3.18.0
+[debug] [2018-04-08T19:06:33.992Z] Platform:      linux
+[debug] [2018-04-08T19:06:33.992Z] Node Version:  v8.9.3
+[debug] [2018-04-08T19:06:33.992Z] Time:          Mon Apr 09 2018 00:36:33 GMT+0530 (IST)
+[debug] [2018-04-08T19:06:33.992Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2018-04-08T19:06:34.004Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2018-04-08T19:06:34.004Z] > authorizing via signed-in user
+[debug] [2018-04-08T19:06:34.006Z] > refreshing access token with scopes: ["email","https://www.googleapis.com/auth/cloud-platform","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","openid"]
+[debug] [2018-04-08T19:06:34.007Z] >>> HTTP REQUEST POST https://www.googleapis.com/oauth2/v3/token  
+ { refresh_token: '1/GAyGPLoKrZ_qpCIg2ZhfKIGjTppn6wpfjPypn5Wn5LI',
+  client_id: '563584335869-fgrhgmd47bqnekij5i8b5pr03ho849e6.apps.googleusercontent.com',
+  client_secret: 'j9iVZfS8kkCEFUPaAeJV0sAi',
+  grant_type: 'refresh_token',
+  scope: 'email https://www.googleapis.com/auth/cloud-platform https://www.googleapis.com/auth/cloudplatformprojects.readonly https://www.googleapis.com/auth/firebase openid' } 
+ Mon Apr 09 2018 00:36:34 GMT+0530 (IST)
+[debug] [2018-04-08T19:06:34.329Z] <<< HTTP RESPONSE 200
+[debug] [2018-04-08T19:06:34.397Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/projects/metutu-juspay  
+  
+ Mon Apr 09 2018 00:36:34 GMT+0530 (IST)
+[debug] [2018-04-08T19:06:35.860Z] <<< HTTP RESPONSE 200
+[debug] [2018-04-08T19:06:35.861Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/database/metutu-juspay/tokens  
+  
+ Mon Apr 09 2018 00:36:35 GMT+0530 (IST)
+[debug] [2018-04-08T19:06:37.057Z] <<< HTTP RESPONSE 200
+[debug] [2018-04-08T19:06:37.059Z] >>> HTTP REQUEST GET https://cloudresourcemanager.googleapis.com/v1/projects/metutu-juspay  
+  
+ Mon Apr 09 2018 00:36:37 GMT+0530 (IST)
+[debug] [2018-04-08T19:06:38.557Z] <<< HTTP RESPONSE 200
+[info] 
+[info] === Serving from '/home/akash/Documents/pro/juspay/metutu-server'...
+[info] 
+[info] i  functions: Preparing to emulate functions.
+[debug] [2018-04-08T19:06:39.539Z] Fetching environment
+[debug] [2018-04-08T19:06:39.543Z] >>> HTTP REQUEST GET https://mobilesdk-pa.googleapis.com/v1/projects/839785194862:getServerAppConfig  
+  
+ Mon Apr 09 2018 00:36:39 GMT+0530 (IST)
+[debug] [2018-04-08T19:06:40.541Z] <<< HTTP RESPONSE 200
+[debug] [2018-04-08T19:06:40.541Z] Starting @google-cloud/functions-emulator
+[debug] [2018-04-08T19:06:43.304Z] Parsing function triggers
+[info] ✔  functions: api: http://localhost:5000/metutu-juspay/us-central1/api
